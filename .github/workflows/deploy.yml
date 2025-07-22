@@ -33,9 +33,9 @@ jobs:
         run: |
           npm install
           npm run build
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is provided by GitHub.
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: build # The folder the action should deploy.
+      - - name: Deploy 🚀
+  uses: JamesIves/github-pages-deploy-action@v4
+  with:
+    GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # از توکن شخصی استفاده کن
+    BRANCH: gh-pages
+    FOLDER: build

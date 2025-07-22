@@ -26,7 +26,7 @@ const greeting = {
     "التماس دعا از همگی"
   ),
   resumeLink:
-    "<div id="11451485907"><script type="text/JavaScript" src="https://www.aparat.com/embed/wk4IF?data[rnddiv]=11451485907&data[responsive]=yes"></script></div>", // Set to empty to hide the button"
+    '<div id="11451485907"><script type="text/JavaScript"'
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
